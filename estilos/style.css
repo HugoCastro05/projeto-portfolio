@@ -192,8 +192,6 @@ article h2 {
   border-left: 5px solid var(--destaque-inverso);
   padding-left: 14px;
   transition: border-width 0.5s, border-color 0.5s;
-  transform: translate(5px, -5px);
-  
 }
 
 #formacao-container .curso:hover {
