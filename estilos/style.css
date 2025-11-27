@@ -75,6 +75,7 @@ section#ficha {
   padding: 20px;
   border-radius: 8px;
   grid-column: 2;
+  
 }
 
 section#ficha img.foto {
@@ -96,6 +97,11 @@ section#ficha h1 {
   margin: 15px 0px;
   font-size: 1.5;
   text-align: left;
+  text-align: center;
+}
+
+section#ficha p {
+  text-align: center;
 }
 
 div#social {
@@ -131,20 +137,22 @@ article h2 {
 
 }
 
-.video-container {
-  position: relative;
-  width: 100%;
-  margin: auto;
-  aspect-ratio: 16/9;
+#txt-container {
+  margin-top: 20px;
 }
 
-.video-container iframe {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 8px;
+.about-text h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.about-text h3 {
+  color: var(--destaque-inverso);
+  margin: 10px 0px;
+}
+
+.about-text p {
+  margin-bottom: 13px;
 }
 
 #skill-container {
@@ -274,10 +282,10 @@ footer a:hover {
 }
 
 
-@media screen and (min-width:798px) {
+@media screen and (min-width:950px) {
 
   main {
-    grid-template-columns: auto 350px 1fr auto;
+    grid-template-columns: auto 368px 1fr auto;
    
   }
 
